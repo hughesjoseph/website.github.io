@@ -5,9 +5,9 @@
   font-style: normal;
 }
 :root {
-  --margin-page: .75rem;
+  --margin-page: 20px;
   --base-font-size: 60px;
-  --baseline: 1.3rem;
+  --baseline: 60px;
   /*--bg-white: #fefefe;*/
   --bg-white: #ffffff;
   --bg-white: #f4f1f1;
@@ -54,6 +54,24 @@ body
     position: relative;
     width: 100%;
 }
+.nav-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--margin-page);
+}
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9;
+}
 
 .main-page {
     display: flex;
@@ -65,19 +83,23 @@ body
     width: 100%;
     height: 100vh;
 }
+.main-page p {
+    max-width: 28em;
+}
 
 .emoji-glyph {
     height: 1.4em;
     display: inline-block;
     position: relative;
-    top: .3em;
 }
 .emoji-glyph img {
     display: block;
     position: relative;
     width: 100%;
     height: 100%;
-
+}
+.main-page .emoji-glyph {
+    top: .3em;
 }
 /*mobile*/
 @media only screen and (max-width: 600px) {
