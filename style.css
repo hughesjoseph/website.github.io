@@ -9,7 +9,7 @@
   --base-font-size: 15px;
   --baseline: 1.5rem;
   /*--bg-white: #fefefe;*/
-  --bg-white: #f2f2f2;
+  --bg-white: #ffffff;
   --bg-white: #f4f1f1;
   --text-black: #282828;
   --text-black: #2c2c2d;
@@ -41,7 +41,6 @@
 html,
 body
 {
-    /*background: white;*/
     font-family: "helvetica","Arial",sans-serif;
     font-kerning:normal;
     font-size: var(--base-font-size);
