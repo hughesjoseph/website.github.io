@@ -113,6 +113,35 @@ body
   .mob-hidden {
     display: none !important;
   }
+  body {
+    font-size: 34px;
+    word-spacing:0.001em;
+    font-weight: 600;
+    line-height: 1.5em;
+    background: var(--bg-white);
+    color: var(--text-black);
+    }
+  .main-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px var(--margin-page);
+        text-align: center;
+        height: auto;
+        min-height: 100vh;
+    }
+    .emoji-glyph {
+        height: 10px;
+        overflow: visible;
+        top: -.8em;
+    }
+    .main-page .emoji-glyph {
+        top: -.8em;
+    }
+    .emoji-glyph img {
+        height: 1.3em;
+    }
 
 
 }
