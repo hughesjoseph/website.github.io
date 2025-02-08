@@ -95,7 +95,7 @@ body
 .emoji-glyph img {
     display: block;
     position: relative;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 .main-page .emoji-glyph {
