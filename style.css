@@ -6,7 +6,7 @@
 }
 :root {
   --margin-page: 20px;
-  --base-font-size: 48px;
+  --base-font-size: 38px;
   --baseline: 60px;
   /*--bg-white: #fefefe;*/
   --bg-white: #ffffff;
@@ -84,7 +84,7 @@ body
     height: 100vh;
 }
 .main-page p {
-    max-width: 28em;
+    max-width: 27em;
 }
 
 .emoji-glyph {
@@ -130,6 +130,9 @@ body
         text-align: center;
         height: auto;
         min-height: 100vh;
+    }
+    .main-page p {
+        max-width: 10em;
     }
     .emoji-glyph {
         height: 10px;
