@@ -6,7 +6,7 @@
 }
 :root {
   --margin-page: 20px;
-  --base-font-size: 60px;
+  --base-font-size: 46px;
   --baseline: 60px;
   /*--bg-white: #fefefe;*/
   --bg-white: #ffffff;
@@ -114,7 +114,7 @@ body
     display: none !important;
   }
   body {
-    font-size: 34px;
+    font-size: 24px;
     word-spacing:0.001em;
     font-weight: 600;
     line-height: 1.5em;
